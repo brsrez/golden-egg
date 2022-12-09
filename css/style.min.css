@@ -264,6 +264,45 @@ section p {
   border-radius: 5px;
 }
 
+.team {
+  background: url(../img/bg-team.jpg) center/cover no-repeat;
+  padding: 40px 0 120px;
+}
+
+h6 {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.team__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.team__text {
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+.team__img {
+  width: 50%;
+  min-width: 500px;
+  position: relative;
+}
+.team__img .circle {
+  left: 0;
+  transform: translate(-40%, -50%);
+}
+
 .swiper {
   margin-left: auto;
   margin-right: auto;
