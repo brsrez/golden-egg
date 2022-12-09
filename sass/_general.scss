@@ -1,0 +1,16 @@
+$color: yellow;
+$color2: green;
+
+$kulare: 'Kurale', serif;
+$open: 'Open Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: $open;
+}
